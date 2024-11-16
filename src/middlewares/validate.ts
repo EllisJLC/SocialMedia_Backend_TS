@@ -1,7 +1,7 @@
 const { checkSchema, validationResult, body} = require('express-validator');
 const User = require('../models/User');
 
-const withValidationErrors = (validateValue: []) => {
+const withValidationErrors = (validateValue: {}) => {
   return [
     validateValue,
     (req, res, next) => {
