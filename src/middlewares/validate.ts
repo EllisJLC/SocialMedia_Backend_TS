@@ -61,3 +61,9 @@ const validatePost = withValidationErrors([
       }
     })
 ])
+
+module.exports = {
+  validateRegistration,
+  validateLogin,
+  validatePost
+}
