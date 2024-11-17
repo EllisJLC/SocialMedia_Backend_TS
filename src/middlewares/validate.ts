@@ -62,7 +62,8 @@ const validatePost = withValidationErrors([
     })
 ])
 
-module.exports = {
+
+export default {
   validateRegistration,
   validateLogin,
   validatePost
